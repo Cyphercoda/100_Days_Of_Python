@@ -2,7 +2,7 @@
 # 366, with an extra day in February. The reason why we have leap years is really fascinating, this video does it
 # more justice.
 
-#his is how you work out whether if a particular year is a leap year.
+# his is how you work out whether if a particular year is a leap year.
 
 #    on every year that is divisible by 4 with no remainder
 #    except every year that is evenly divisible by 100 with no remainder
@@ -21,4 +21,3 @@ if year % 4 == 0:
         print("Leap year")
 else:
     print("Not leap year")
-

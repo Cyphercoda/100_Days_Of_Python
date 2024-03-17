@@ -1,6 +1,6 @@
-#Write a program that interprets the Body Mass Index (BMI) based on a user's weight and height.
+# Write a program that interprets the Body Mass Index (BMI) based on a user's weight and height.
 
-#It should tell them the interpretation of their BMI based on the BMI value.
+# It should tell them the interpretation of their BMI based on the BMI value.
 
 #    Under 18.5 they are underweight
 #    Equal to or over 18.5 but below 25 they have a normal weight
@@ -10,7 +10,7 @@
 
 weight = float(input("What is your weight?"))
 height = float(input("What is your height?"))
-BMI = weight / (height**2)
+BMI = weight / (height ** 2)
 
 if BMI < 18.5:
     print(f"Your BMI is {BMI}, you are underweight.")
