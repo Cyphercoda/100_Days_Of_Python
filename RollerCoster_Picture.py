@@ -14,7 +14,7 @@ if height >= 120:
         bill = 5
         print("pay $5")
     elif age > 12 < 18:
-        bill =  12
+        bill = 12
         print("pay $12")
 
     want_photo = input("Do you want a photo? Y or N.")
